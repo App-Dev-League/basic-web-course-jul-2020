@@ -1,0 +1,83 @@
+h1 {
+    /* Top, Right, Bottom, Left */
+    /* Default is 20px from the top*/
+    /* 'Margin: auto' gets rid of this */
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.rectangle {
+    background-color: gray;
+    /* Can regulate with pixels or % */
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* Right, Bottom, Color */
+    text-shadow: 3px 3px gray;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    /* You can also have "em" in font size, where 1 em is 16px */
+    font-size: 20px;
+}
+
+a {
+    color: hotpink;
+}
+
+/* 4 states for a link -- a:link (unvisited link), a:visited (visited link), a:hover (hover link), a:active (when link clicked) */
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a:link, a:visited {
+    background-color: lightgray;
+    color: darkgreen;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+   
+a:hover, a:active {
+    background-color: darkgreen;
+    color: lightgray
+}
+
+/* Explain Display property (block, inline, inline-block, and none) */
+
+h3 {
+    display: block;
+}
+
+a.inline {
+    display: none;
+}
+

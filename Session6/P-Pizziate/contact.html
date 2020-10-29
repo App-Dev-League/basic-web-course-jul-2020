@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Contact | Pizziate</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="curpage">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="title">Pizziate's Kitchen</h1>
+
+        <div>
+            <h2 class="contact">408-284-1205</h2>
+            <h2 class="contact">pizziatekitchen@gmail.com</h2>
+        </div>
+
+        <br> 
+
+        <h3 class="header">If you would like to sign up for our mailing list, please fill out this form:</h3>
+
+        <p></p>
+
+        <form class="contactForm">
+            <h4>What is your first name?<strong>*</strong></h4>
+            <label for="fname"> First Name: </label>
+            <input type="text" id="fname" name="fname" required>
+            <h4>What is your last name?<strong>*</strong></h4>
+            <label for="lname"> Last Name: </label>
+            <input type="text" id="lname" name="lname" required>
+
+            <h4>Enter in your gender: </h4>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+            <h4>What is your email?<strong>*</strong></h4>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+
+            <h4>What is your password?<strong>*</strong></h4>
+            <label for="password"> Password: </label>
+            <input type="password" id="password" name="password" required>
+
+            <h4>Once you are done, please submit by clicking the button below:</h4>
+            <input type="submit" id="submit" name="submit">
+        </form>
+
+        <footer>
+            <p class="copyright">© 2020 by Pizziate Restaurant </p>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,120 @@
+body {
+    background-color: #eee;
+}
+
+/* Nav Bar */
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+nav ul li a {   
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: 'Trebuchet MS'
+}
+
+nav ul li a:link, ul li a:visited {
+    background-color: lightblue;
+    color: black;
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: lightblue;
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+nav ul li a.curpage {
+    border: 3px solid red;
+}
+
+/* Footer */
+footer {
+    background-color: darkgray;
+    height: 80px;
+}
+
+.copyright {
+    padding: 30px;
+    font-weight: bold;
+}
+
+/* Home Page */
+
+h1.title {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+h2.mainPoint {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.description {
+    width: 30%;
+    background-color: lightgreen;
+    padding: 30px;
+    margin: 150px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+img.homePage {
+    margin-left: 60%;
+}
+
+/* Menu */
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+
+ul li.menuItem {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    margin-left: 60px;
+}
+
+p.menuItemDescription {
+    margin-left: 80px;
+    width: 60%;
+}
+
+.menuHeader {
+    width: 40%;
+    background-image: linear-gradient(lightgray, white);
+    border: 2px solid black;
+    display: inline-block;
+    margin: 65px;
+}
+
+
+/* Contact */
+.contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color: darkblue;
+}
+
+.contactForm {
+    margin-left: 100px;
+}
